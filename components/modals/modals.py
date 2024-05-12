@@ -8,7 +8,7 @@ class ModalComponent(component.Component):
     modal_body = RendersOneField(required=True)
     modal_footer = RendersOneField(required=True)
 
-    template_name = "modal/modal.html"
+    template_name = "modals/modals.html"
 
     def __init__(self, modal_id, modal_title, **kwargs):
         self.modal_id = modal_id
